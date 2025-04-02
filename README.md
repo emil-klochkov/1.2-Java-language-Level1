@@ -1,32 +1,32 @@
 # 1.2-Java-language-Level1
 
-## 1. Product.java (Clase Producto)
-Representa un producto con un nombre y un precio.
+## 1. Product.java (Product Class)
+Represents a product with a name and a price.
 
-Se pueden obtener sus valores con getName() y getPrice().
+Its values ​​can be obtained with getName() and getPrice().
 
-Tiene un método toString() para mostrar su información de forma clara.
+It has a toString() method to clearly display its information.
 
-## 2. Sale.java (Clase Venta)
-Maneja una lista de productos y calcula el precio total de la venta.
+## 2. Sale.java (Sale Class)
+Handles a list of products and calculates the total sale price.
 
-addProduct(Product product): Agrega un producto a la venta.
+addProduct(Product product): Adds a product to the sale.
 
-calculateTotal(): Suma los precios de los productos y muestra el total. Si no hay productos, lanza una excepción.
+calculateTotal(): Adds the product prices and displays the total. If there are no products, throws an exception.
 
-getTotalPrice(): Devuelve el total de la venta.
+getTotalPrice(): Returns the total sale price.
 
-generateIndexOutOfBoundsException(): Prueba una excepción de índice fuera de rango con una lista vacía.
+generateIndexOutOfBoundsException(): Tests for an index out of range exception with an empty list.
 
-## 3. EmptySaleException.java (Excepción de Venta Vacía)
-Excepción personalizada que se lanza si intentas calcular el total sin haber agregado productos.
+## 3. EmptySaleException.java (EmptySaleException)
+Custom exception that is thrown if you try to calculate the total without adding any products.
 
-## 4. Main.java (Clase Principal)
-Ejecuta el programa y prueba distintos casos:
+## 4. Main.java (Main Class)
+Run the program and test different cases:
 
-Intenta calcular el total sin productos (para probar la excepción).
+Try calculating the total without products (to test for the exception).
 
-Agrega productos y vuelve a calcular el total.
+Add products and recalculate the total.
 
-Prueba una IndexOutOfBoundsException con una lista vacía.
+Try an IndexOutOfBoundsException with an empty list.
 
